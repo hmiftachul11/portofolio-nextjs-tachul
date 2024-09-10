@@ -34,7 +34,7 @@ export const Projects: ProjectInterface[] = [
         type: "Professional",
         category: ["Frontend", "Web Dev", "UI/UX"],
         shortDescription:
-            "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
+            "Dikte.in  is an integrated multilingual platform that will help increase your productivity. It can be used for transcription, translation and speech synthesis with high accuracy and speed at an affordable price. There are features such as speaker diarization, closed captioning, subtitling and summary to ensure all your needs are met.",
         websiteLink: "https://www.bahasakita.co.id/#/",
         techStack: [
             "React",
