@@ -11,7 +11,7 @@ export default async function MarketingLayout({
     children,
 }: MarketingLayoutProps) {
     return (
-        <div className="flex min-h-screen flex-col">
+        <div className="flex min-h-screen flex-col w-full">
             <header className="container z-50 bg-background">
                 <div className="flex h-20 items-center justify-between py-6">
                     <MainNav items={routesConfig.mainNav} />
@@ -20,7 +20,7 @@ export default async function MarketingLayout({
                     </nav>
                 </div>
             </header>
-            <main className="container flex-1">{children}</main>
+            <main className="">{children}</main>
             <SiteFooter />
         </div>
     );

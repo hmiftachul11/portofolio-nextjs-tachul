@@ -48,7 +48,7 @@ const renderContent = (tabVal: string) => {
 
 export default function ProjectsPage() {
     return (
-        <>
+        <div className="container">
             <PageHeader
                 title={pagesConfig.projects.title}
                 description={pagesConfig.projects.description}
@@ -69,6 +69,6 @@ export default function ProjectsPage() {
                     {renderContent("personal")}
                 </TabsContent>
             </Tabs>
-        </>
+        </div>
     );
 }

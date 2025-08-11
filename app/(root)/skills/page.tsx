@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 
 export default function SkillsPage() {
     return (
-        <>
+        <div className="container">
             <PageHeader
                 title={pagesConfig.skills.title}
                 description={pagesConfig.skills.description}
             />
             <SkillsCard skills={skills} />
-        </>
+        </div>
     );
 }

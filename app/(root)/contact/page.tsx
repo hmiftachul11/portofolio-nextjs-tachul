@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
     return (
-        <>
+        <div className="container">
             <PageHeader
                 title={pagesConfig.contact.title}
                 description={pagesConfig.contact.description}
@@ -22,6 +22,6 @@ export default function ContactPage() {
                     <ContactForm />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

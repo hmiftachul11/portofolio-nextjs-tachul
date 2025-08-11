@@ -9,6 +9,10 @@ export const routesConfig: any = {
             href: "/projects",
         },
         {
+            title: "Parallax CV",
+            href: "/parallax",
+        },
+        {
             title: "Contact",
             href: "/contact",
         },
